@@ -8,7 +8,7 @@ import (
 
 type Config struct {
 	Environment string `env:"ENVIRONMENT"`
-	MysqlUrl    string `env:"MysqlUrl"`
+	MysqlUrl    string `env:"MYSQL_URL"`
 }
 
 func NewConfig() Config {
